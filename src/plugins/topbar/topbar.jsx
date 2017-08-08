@@ -169,7 +169,7 @@ export default class Topbar extends React.Component {
             </ol>
             <div className="right-buttons">
               <a href="https://app.binary24.com/" target="_blank"><div className="green-btn">VIEW DEMO</div></a>
-              <a href="https://app.binary24.com/login" target="_blank"><div className="blue-btn">SIGN UP/LOG IN</div></a>
+              <a href="https://app.binary24.com/login" target="_blank"><div className="blue-btn">SIGN UP / LOG IN</div></a>
             </div>
           </div>
         </div>
