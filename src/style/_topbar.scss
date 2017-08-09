@@ -1,10 +1,11 @@
 .topbar {
-  padding: 20px 0 20px 30px;
+  padding: 20px 0 20px 40px;
   color: white;
   background: linear-gradient(-40deg,#080823,#080823 30%,#080823 50%,#080823 70%,#18255e);
 
   .wrapper {
     padding-right: 0;
+    padding-left: 0;
     margin: 0;
   }
   .topbar-wrapper {
@@ -13,6 +14,7 @@
     align-items: center;
 
     .link-logo {
+      padding-top: 1px;
       height: 40px;
     }
   }
@@ -20,27 +22,24 @@
 
 ol {
   position: absolute;
-  right: 350px;
-  top: 9px;
+  right: 335px;
+  top: 5px;
   margin: 0;
-  list-style-type: none;
-  font-family: Rubik, sans-serif;
-      font-style: normal;
-      font-weight: 300;
   color: #eee;
 }
 ol a {
-  display:block;
+  // display: block;
   font-family: Rubik, sans-serif;
-      font-style: normal;
-      font-weight: 300;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.063rem;
   color: #eee;
-  text-decoration:none;
+  text-decoration: none;
 }
 ol > li {
   position: relative;
   display: inline-block;
-  padding: 5px 20px;
+  padding: 5px 30px;
 }
 ol > li:hover > a {
   color: #f1af11;
@@ -70,15 +69,15 @@ ol > li:hover > ul {
 
 .list-down {
   position: relative;
-  padding-right: 36px;
+  padding-right: 32px;
 }
 .list-down::after {
   content: "";
   position: absolute;
-  right: 18px;
-  top: 7px;
-  width: 10px;
-  height: 10px;
+  right: 12px;
+  top: 8px;
+  width: 11px;
+  height: 11px;
   border-right: 2px solid #eee;
   border-bottom: 2px solid #eee;
   border-left: 2px solid transparent;
@@ -91,9 +90,9 @@ ol > li:hover > ul {
 }
 .active-bar {
   position: absolute;
-  bottom: -23px;
+  bottom: -25px;
   left: 0;
-  width: 110px;
+  width: 118px;
   height: 4px;
   background: #f1af11;
 }
@@ -102,29 +101,41 @@ ol > li:hover > ul {
   position: absolute;
   right: 0;
   margin: 0;
-  list-style-type: none;
+  list-style-type: normal;
   font-family: Rubik, sans-serif;
-      font-weight: 500;
+  text-transform: uppercase;
+  font-weight: 500;
   z-index:101;
 }
 .green-btn {
   color: #eee;
   font-size: 17px;
+  list-style-type: normal;
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
+  letter-spacing: -.5px;
+  text-transform: uppercase;
   border-radius: 20px;
   background-color: #009b6b;
-  padding: 9px 24px;
+  padding: 9px 25px;
   display: inline-block;
   margin: 0 10px;
+  cursor: pointer;
 }
 .blue-btn {
   color: #eee;
   font-size: 17px;
+  list-style-type: normal;
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
+  letter-spacing: -.5px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   background-color: #366adc;
   padding: 9px 24px;
   display: inline-block;
   margin: 0;
+  cursor: pointer;
 }
 .blue-btn:hover {
   background-color: rgb(28, 167, 237);
