@@ -130,7 +130,7 @@ export default class Topbar extends React.Component {
         <div className="wrapper">
           <div className="topbar-wrapper">
             <Link className="link-logo" href="https://binary24.com/#/home" title="BINARY 24">
-              <img height="39" width="127" src={ Logo } alt="BINARY 24"/>
+              <img height="50" src={ Logo } alt="BINARY 24"/>
             </Link>
 
             <ol>
